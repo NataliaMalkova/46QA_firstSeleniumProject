@@ -1,0 +1,4 @@
+rootProject.name = '46QA_firstSeleniumProject'
+include 'src:test:tricentis'
+findProject(':src:test:tricentis')?.name = 'tricentis'
+
